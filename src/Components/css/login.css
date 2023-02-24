@@ -15,8 +15,9 @@
 }
 
 .top-logo img {
-    width: 15%;
+    width: 80%;
     object-fit: cover;
+    height: 155px;
 }
 
 .signup-inputs {

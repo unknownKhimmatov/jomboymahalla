@@ -19,7 +19,7 @@ export default function Statistika() {
       <div className='Dashboard' style={{ width: show !== true ? "20%" : "5%" }}>
         <div className="item-dashboard">
           <div className="top-logo">
-            <h1 style={{ display: show !== true ? "block" : "none" }} >logo</h1>
+            <img src="./img/Mahalla.png" alt="" />
           </div>
           <ul>
             <NavLink to='/Home'>
@@ -32,9 +32,16 @@ export default function Statistika() {
                 <i class='bx bx-bar-chart-alt-2'></i> <span style={{ display: show !== true ? "block" : "none" }}>Statistika</span>
               </li>
             </NavLink>
-            <li>
-              <i class='bx bx-list-ol'  ></i> <span style={{ display: show !== true ? "block" : "none" }}>Umumiy ro`yxat</span>
-            </li>
+            <NavLink to='/UsersAdd'>
+              <li >
+                <i class='bx bx-bar-chart-alt-2'  ></i> <span style={{ display: show !== true ? "block" : "none" }}>Ro`yxatga Qo`shish</span>
+              </li>
+            </NavLink>
+            <NavLink to='/Yoshlar' >
+              <li>
+                <i class='bx bx-list-ol'  ></i> <span style={{ display: show !== true ? "block" : "none" }}>Umumiy ro`yxat</span>
+              </li>
+            </NavLink>
           </ul>
         </div>
         <div className="dashboard-arrow" onClick={HandlerClick} >

@@ -1,0 +1,96 @@
+.registr-container {
+  width: 80%;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: .4s;
+  align-items: center;
+
+}
+
+.registr-item1 {
+  width: 90%;
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(193, 193, 193, 0.178);
+}
+
+.registr-container .registr-item {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.registr-container .registr-item .registr-box {
+  height: auto;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px rgba(199, 198, 198, 0.248);
+}
+
+.registr-container .registr-item .registr-box {
+  margin-right: 30px;
+}
+
+.registr-container .registr-item .registr-box input {
+  width: 100%;
+  height: 100%;
+  padding: 12px 14px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  height: 55px;
+}
+
+#pass {
+  display: none;
+}
+.pass{
+  display: flex;
+  align-items: center;
+}
+
+.registr-container .registr-item .registr-box label {
+  width: 100%;
+  height: 100%;
+  padding: 12px 14px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+
+.registr-container .registr-radio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.registr-container .radio-box {
+  background-color: white;
+  margin-right: 30px;
+  margin-top: 20px;
+  height: 120px;
+  padding: 10px;
+  font-size: 18px;
+  display: block;
+  border-radius: 5px;
+}
+
+.registr-container .radio-box strong {
+  display: block;
+}
+
+.registr-container .radio-box input {
+  margin: 10px 0;
+
+}
+
+.registr-container .radio-box label {
+  margin-right: 5px;
+  user-select: none;
+}

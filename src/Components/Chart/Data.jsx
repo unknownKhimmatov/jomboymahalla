@@ -31,6 +31,7 @@ export const data = [
         uv: 3490,
     },
 ];
+
 export const dataUmumiyulush = [
     { name: 'Erkaklar', value: 400 },
     { name: 'Ayollar', value: 300 },

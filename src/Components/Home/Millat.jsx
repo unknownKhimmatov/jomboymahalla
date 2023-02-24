@@ -8,6 +8,9 @@ export default function Millat() {
           Millat
         </p>
       </span>
+      <div className="information">
+
+      </div>
     </div>
   )
 }

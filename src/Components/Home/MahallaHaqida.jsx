@@ -8,6 +8,9 @@ export default function MahallaHaqida() {
                     Mahalla Haqida
                 </p>
             </span>
+            <div className="information">
+                
+            </div>
         </div>
     )
 }

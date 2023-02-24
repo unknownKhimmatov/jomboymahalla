@@ -8,6 +8,9 @@ export default function Aholi() {
           Aholi
         </p>
       </span>
+      <div className="information">
+
+      </div>
     </div>
   )
 }
