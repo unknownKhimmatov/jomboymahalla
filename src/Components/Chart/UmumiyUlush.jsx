@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
 
-import {dataUmumiyulush} from '../Chart/Data'
+import { dataUmumiyulush } from '../Chart/Data'
 
 const COLORS = ['green', 'red', 'blue'];
 
