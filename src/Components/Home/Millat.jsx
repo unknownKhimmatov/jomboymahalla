@@ -9,7 +9,14 @@ export default function Millat() {
         </p>
       </span>
       <div className="information">
-
+        <ul>
+          <li>
+            Mahalla nomi
+          </li>
+          <li>
+            Nogohon
+          </li>
+        </ul>
       </div>
     </div>
   )
